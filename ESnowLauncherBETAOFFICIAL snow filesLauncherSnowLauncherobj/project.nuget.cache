@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Gp8sZhqU490=",
+  "success": true,
+  "projectFilePath": "E:\\SnowLauncherBETA\\OFFICIAL snow files\\Launcher\\SnowLauncher\\SyndicateLauncher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chris\\.nuget\\packages\\hidsharp\\2.1.0\\hidsharp.2.1.0.nupkg.sha512",
+    "C:\\Users\\chris\\.nuget\\packages\\nefarius.vigem.client\\1.21.256\\nefarius.vigem.client.1.21.256.nupkg.sha512"
+  ],
+  "logs": []
+}
