@@ -1,0 +1,16 @@
+PROJECT SNOW - NOTICE
+
+Project Snow is a fork of the open-source Syndicate launcher and server project.
+
+Original work: Copyright (c) 2026 Unkn0wn (d4shyb0i), Joey, Sact, Trent, and Alfie
+("the Syndicate team"), released under the MIT License. That copyright and permission
+notice stays with every copy of this software, as the license requires (see LICENSE in
+the source repository). Project Snow's changes are released under the same license.
+
+Third-party code (MinHook, ImGui, FreeType, libcurl, the generated Unreal SDK, Erbium and
+LawinServer-based parts) keeps its own license.
+
+Fortnite and its assets belong to Epic Games and are not covered by these licenses.
+You need your own legally obtained Fortnite builds.
+
+Project Snow community: https://discord.gg/yYtWuMMPsG
