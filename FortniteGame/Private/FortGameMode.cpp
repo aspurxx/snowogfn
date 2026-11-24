@@ -3282,7 +3282,7 @@ void SetupPlaylist(AFortGameMode* GameMode, AFortGameStateAthena* GameState)
         if (Playlist->HasMaxSquadSize()) {
             if (wcsstr(FConfiguration::Playlist,L"Playlist_DefaultDuo")) Playlist->MaxSquadSize=2;
             else if (wcsstr(FConfiguration::Playlist,L"Playlist_DefaultSquad")) Playlist->MaxSquadSize=4;
-            else if (wcsstr(FConfiguration::Playlist,L"Playlist_DefaultSolo")) Playlist->MaxSquadSize=1;
+            else if (wcsstr(FConfiguration::Playlist,L"Playlist_DefaultSolo") || SyndicateWorldCupSoloRequested()) Playlist->MaxSquadSize=1;
         }
         if (FConfiguration::bForceRespawns)
         {
