@@ -84,6 +84,7 @@ function prewarm(mode,dir=runtime,now=Date.now()){
 function modeFromName(name){const m=typeof name==='string'?name.match(/Playlist_[A-Za-z0-9_]+/):null;return m?modes[m[0].toLowerCase()]||null:null;}
 function ready(id,dir=runtime){const t=readTicket(id,dir),r=read(path.join(dir,'playlist-request.json'));if(!t||t.reservedUntil<=Date.now()||t.requestId!==r?.Id)return false;const live=hostStatus(dir);return !!live&&live.Mode===t.mode&&live.Build===(t.build||'4.5')&&selectedBuild(dir)===(t.build||'4.5')&&(!t.assignedPid||t.assignedPid===live.Pid)&&live.Accepting&&require('./readiness.cjs').isReady(dir);}
 function reserveRemote(mode,accountId,host,remoteTicket,dir=runtime,build=selectedBuild(dir)){
+ if(mode==='worldcupsolo' && build!=='9.40')throw Error('World Cup Solo is available only in Season 9 (Fortnite 9.40).');
  if(mode==='50v50' && build!=='4.5')throw Error('50v50 is available only in Season 4.');
  if(!playlistNames[mode]||!/^(?:\d{1,3}\.){3}\d{1,3}$/.test(host)||!/^[a-f0-9]{32}$/.test(remoteTicket))throw Error('Invalid remote playlist response');
  const id=remoteTicket,t={id,mode,build,accountId,host,remoteTicket,expires:Date.now()+600000,reservedUntil:Date.now()+300000};write(ticketPath(id,dir),t);return t;
