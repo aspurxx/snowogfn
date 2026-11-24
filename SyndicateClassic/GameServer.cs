@@ -43,7 +43,7 @@ public static class GameServer
 		try
 		{
 			string text = File.ReadAllText(Path.Combine(paths.Root, "Runtime", "Server", "selected-mode.txt")).Trim();
-			bool flag = ((text == "duo" || text == "squad" || text == "50v50" || text == "playground" || text == "arenasolo" || text == "creative") ? true : false);
+			bool flag = ((text == "duo" || text == "squad" || text == "50v50" || text == "playground" || text == "arenasolo" || text == "worldcupsolo" || text == "creative") ? true : false);
 			return flag ? text : "solo";
 		}
 		catch
@@ -63,6 +63,7 @@ public static class GameServer
         case "50v50":
         case "playground":
         case "arenasolo":
+        case "worldcupsolo":
         case "creative":
 			flag = true;
 			break;
@@ -167,6 +168,7 @@ public static class GameServer
             if(text=="50v50" && build!="4.5"){if(requestedMode!=null)throw new ArgumentException("50v50 is available only in Season 4.");text="solo";}
             if(text=="playground" && build!="4.5"){if(requestedMode!=null)throw new ArgumentException("Playground is available only in Season 4.");text="solo";}
             if(text is "arenasolo" && build is not ("8.50" or "9.40" or "10.31" or "11.00" or "12.50")){if(requestedMode!=null)throw new ArgumentException("Arena is available in Season 8 and later.");text="solo";}
+            if(text=="worldcupsolo" && build!="9.40"){if(requestedMode!=null)throw new ArgumentException("World Cup Solo is available only in Fortnite 9.40.");text="solo";}
             bool creativeBuild = build is ("7.40" or "8.50" or "9.40" or "10.31");
 #if TILTED_DEVKIT
             creativeBuild = creativeBuild || build=="11.00"; // Dev Kit: experiment with Creative on 11.00 (island streaming still broken - expect empty sea)
@@ -175,7 +177,7 @@ public static class GameServer
             // Chapter 2 entrance (an account's first 11.00 match, chosen by the backend): Fortnite's own intro playlist,
             // whose warmup movie mutator plays the Chapter 2 cinematic and drops everyone from the bus.
             if(text=="intro" && !(build=="11.00" && GameBuild.Chapter2)){if(requestedMode!=null)throw new ArgumentException("The Chapter 2 entrance needs Fortnite 11.00.");text="solo";}
-            if(text is not ("solo" or "duo" or "squad" or "50v50" or "playground" or "arenasolo" or "creative" or "intro"))throw new ArgumentException("Unsupported playlist");
+            if(text is not ("solo" or "duo" or "squad" or "50v50" or "playground" or "arenasolo" or "worldcupsolo" or "creative" or "intro"))throw new ArgumentException("Unsupported playlist");
             // Arena always uses hard bots, whatever the launcher's bot skill setting says.
             if(text is "arenasolo")skill="hard";
 			if (server != null && (!HostSettingsMatch(JsonSerializer.Deserialize<ServerState>(File.ReadAllText(statePath)),text,build,skill,studio) || !string.Equals(server.MainModule?.FileName,paths.GameExe,StringComparison.OrdinalIgnoreCase) || File.Exists(dll + ".pending")))
@@ -449,11 +451,12 @@ public static class GameServer
     {
         if(mode=="50v50" && build!="4.5")return "solo";
         if(mode is "arenasolo" && build is not ("8.50" or "9.40" or "10.31" or "11.00" or "12.50"))return "solo";
+        if(mode=="worldcupsolo" && build!="9.40")return "solo";
         if(mode=="creative")return "solo"; // never warm Creative (turned off; no bots)
         if(mode=="playground")return build=="4.5" ? "playground" : "solo";
-        return mode is "solo" or "duo" or "squad" or "50v50" or "arenasolo" ? mode : "solo";
+        return mode is "solo" or "duo" or "squad" or "50v50" or "arenasolo" or "worldcupsolo" ? mode : "solo";
     }
-    private static string ModeName(string mode) => mode switch { "solo"=>"Solo", "duo"=>"Duos", "squad"=>"Squads", "50v50"=>"50 v 50", "playground"=>"Playground", "arenasolo"=>"Arena Solo", "intro"=>"Chapter 2 entrance", _=>mode };
+    private static string ModeName(string mode) => mode switch { "solo"=>"Solo", "duo"=>"Duos", "squad"=>"Squads", "50v50"=>"50 v 50", "playground"=>"Playground", "arenasolo"=>"Arena Solo", "worldcupsolo"=>"World Cup Solo", "intro"=>"Chapter 2 entrance", _=>mode };
     public static async Task WatchMatches(LauncherPaths paths,Action<string> status,CancellationToken cancel)
     {
         string runtime=Path.Combine(paths.Root,"Runtime","Server");Directory.CreateDirectory(runtime);
