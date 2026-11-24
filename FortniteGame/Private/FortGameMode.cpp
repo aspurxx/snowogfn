@@ -3246,7 +3246,8 @@ static auto SyndicatePlaylist()
                 // the registered package before treating World Cup Solo as missing.
                 if (!Playlist)
                     if (auto PlaylistClass = FindClass("FortPlaylistAthena"))
-                        Playlist = (UFortPlaylistAthena*)StaticLoadObject(Path.c_str(), (UClass*)PlaylistClass);
+                        if (SDK::Offsets::StaticLoadObject)
+                            Playlist = (UFortPlaylistAthena*)SDK::StaticLoadObject(Path.c_str(), PlaylistClass);
                 printf("[Syndicate] playlist %s found at %ls: %s\n", Name.c_str(), Path.c_str(), Playlist ? "loaded" : "failed to load");
             }
             else printf("[Syndicate] playlist %s is not in this build; using Solo\n", Name.c_str());
