@@ -3230,6 +3230,16 @@ static auto SyndicatePlaylist()
                 break;
             }
     auto Playlist = FindObject<UFortPlaylistAthena>(FConfiguration::Playlist);
+    if (!Playlist && wcsstr(FConfiguration::Playlist, L"Playlist_Showdown_WorldCup_Solo"))
+    {
+        // A missing playlist is checked again periodically because the asset registry may
+        // still be initializing; avoid scanning every registered asset on every game tick.
+        static ULONGLONG LastWorldCupLookup = 0;
+        const ULONGLONG Now = GetTickCount64();
+        if (LastWorldCupLookup && Now - LastWorldCupLookup < 2000)
+            return nullptr;
+        LastWorldCupLookup = Now;
+    }
     // World Cup Solo has a known Season 9 object path. Try loading that exact path
     // directly before relying on the asset registry, which may not have finished
     // indexing the package when the host first asks for its playlist.
