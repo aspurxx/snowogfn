@@ -38,6 +38,17 @@ test("World Cup Solo reservations are accepted on 9.40", () => {
     assert.equal(ticket.mode, "worldcupsolo");
     assert.equal(ticket.build, "9.40");
     assert.match(ticket.id, /^[a-f0-9]{32}$/);
+
+    const remote = playlists.reserveRemote(
+      "worldcupsolo",
+      "remote-account",
+      "127.0.0.1",
+      "b".repeat(32),
+      dir,
+      "9.40"
+    );
+    assert.equal(remote.mode, "worldcupsolo");
+    assert.equal(remote.build, "9.40");
   });
 });
 
