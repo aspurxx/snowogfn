@@ -3280,8 +3280,14 @@ void SetupPlaylist(AFortGameMode* GameMode, AFortGameStateAthena* GameState)
 {
     auto Playlist = SyndicatePlaylist();
 
-    if (!Playlist)
+    // A missing World Cup asset must never inherit Solo's settings.
+    if (!Playlist && !SyndicateWorldCupSoloRequested())
         Playlist = FindObject<UFortPlaylistAthena>(L"/Game/Athena/Playlists/Playlist_DefaultSolo.Playlist_DefaultSolo");
+    if (!Playlist && SyndicateWorldCupSoloRequested())
+    {
+        printf("[Syndicate] World Cup Solo playlist could not be loaded; skipping Solo fallback in SetupPlaylist.\\n");
+        return;
+    }
 
     if (Playlist)
     {
@@ -3597,7 +3603,13 @@ void AFortGameMode::ReadyToStartMatch_(UObject* Context, FFrame& Stack, bool* Re
 
         auto Playlist = SyndicatePlaylist();
 
-        if (!Playlist)
+        if (!Playlist && SyndicateWorldCupSoloRequested())
+        {
+            printf("[Syndicate] World Cup Solo playlist disappeared during match setup; blocking start.\\n");
+            *Ret = false;
+            return;
+        }
+        if (!Playlist && !SyndicateWorldCupSoloRequested())
             Playlist = FindObject<UFortPlaylistAthena>(L"/Game/Athena/Playlists/Playlist_DefaultSolo.Playlist_DefaultSolo");
 
         if (Playlist)
