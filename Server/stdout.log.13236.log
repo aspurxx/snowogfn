@@ -1,0 +1,8 @@
+Initializing SDK...
+[Syndicate] Selected server playlist: /Game/Athena/Playlists/Playlist_DefaultSolo.Playlist_DefaultSolo
+Hooking & finding offsets... (this may take a while)
+[Syndicate] content keychain: 1151 keys offered by command; direct register fn=game+0x2dd3d10 pak=found registered=1151; Glow loadable=1
+[Syndicate] SetPickupTarget at game+0x0
+[SyndicateRevive] human->bot revive hooks installed
+UWorld::Listen
+[Syndicate STW] beacon: off (not started by the dev launcher)

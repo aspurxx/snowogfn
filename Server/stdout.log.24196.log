@@ -1,0 +1,36 @@
+Initializing SDK...
+[Syndicate] Selected server playlist: /Game/Athena/Playlists/Playlist_DefaultSolo.Playlist_DefaultSolo
+Hooking & finding offsets... (this may take a while)
+[Syndicate] content keychain: 1151 keys offered by command; direct register fn=game+0x2dd3d10 pak=found registered=1151; Glow loadable=1
+[Syndicate] SetPickupTarget at game+0x0
+[SyndicateRevive] human->bot revive hooks installed
+UWorld::Listen
+[Syndicate STW] beacon: off (not started by the dev launcher)
+[CrashReporter] ORIGINAL code=0xc0000005 address=00007FF6AD6935E0 hostOffset=0x20935e0 operation=0 target=0x1462799110f
+[CrashReporter] Caught unhandled exception (Code: EXCEPTION_ACCESS_VIOLATION)
+- Trying to read 0x000001462799110f
+
+0x00007ff6ad6935e0 (FortniteClient-Win64-Shipping.exe+0x20935e0): [unknown]
+0x00007ff6ab982d65 (FortniteClient-Win64-Shipping.exe+0x382d65): [unknown]
+0x00007ff6ad7a7ca0 (FortniteClient-Win64-Shipping.exe+0x21a7ca0): [unknown]
+0x00007ff6ae751122 (FortniteClient-Win64-Shipping.exe+0x3151122): [unknown]
+0x00007ff6acc89040 (FortniteClient-Win64-Shipping.exe+0x1689040): [unknown]
+0x00007ff6acc8f26e (FortniteClient-Win64-Shipping.exe+0x168f26e): [unknown]
+0x00007ff6ae44c274 (FortniteClient-Win64-Shipping.exe+0x2e4c274): [unknown]
+0x00007ff6ae434914 (FortniteClient-Win64-Shipping.exe+0x2e34914): [unknown]
+0x00007ff6aea6003b (FortniteClient-Win64-Shipping.exe+0x346003b): [unknown]
+0x00007ff6aea647bd (FortniteClient-Win64-Shipping.exe+0x34647bd): [unknown]
+0x00007ff6ad635f23 (FortniteClient-Win64-Shipping.exe+0x2035f23): [unknown]
+0x00007ff6ad63e708 (FortniteClient-Win64-Shipping.exe+0x203e708): [unknown]
+0x00007ff6aea6f890 (FortniteClient-Win64-Shipping.exe+0x346f890): [unknown]
+0x00007ff6aea71c77 (FortniteClient-Win64-Shipping.exe+0x3471c77): [unknown]
+0x00007ff6ae75d2fb (FortniteClient-Win64-Shipping.exe+0x315d2fb): [unknown]
+0x00007ff6ae6949b8 (FortniteClient-Win64-Shipping.exe+0x30949b8): [unknown]
+0x00007ff6acba22c0 (FortniteClient-Win64-Shipping.exe+0x15a22c0): [unknown]
+0x00007ff6ab98422d (FortniteClient-Win64-Shipping.exe+0x38422d): [unknown]
+0x00007ff6ab98aa7c (FortniteClient-Win64-Shipping.exe+0x38aa7c): [unknown]
+0x00007ff6ab98aada (FortniteClient-Win64-Shipping.exe+0x38aada): [unknown]
+0x00007ff6ab994da9 (FortniteClient-Win64-Shipping.exe+0x394da9): [unknown]
+0x00007ff6af98a9e2 (FortniteClient-Win64-Shipping.exe+0x438a9e2): [unknown]
+0x00007ffe11647374 (KERNEL32.DLL+0x17374): [unknown]
+0x00007ffe126dcc91 (ntdll.dll+0x4cc91): [unknown]

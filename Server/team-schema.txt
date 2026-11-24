@@ -1,0 +1,58 @@
+fn=10.4
+[FortTeamPrivateInfo] size=1264
+  TeamInfo ObjectProperty off=536 size=8
+  RepData StructProperty off=544 size=384
+  [PrivateTeamDataArray] size=384
+    Items ArrayProperty off=264 size=16
+      inner StructProperty size=64
+      [PrivateTeamDataItem] size=64
+        Value FloatProperty off=12 size=4
+        PlayerID StructProperty off=16 size=40
+        [UniqueNetIdRepl] size=40
+          ReplicationBytes ArrayProperty off=24 size=16
+            inner ByteProperty size=1
+  LatentTeamRepData StructProperty off=928 size=288
+  [LatentRepTeamDataArray] size=288
+    PlayerData ArrayProperty off=264 size=16
+      inner StructProperty size=120
+      [LatentRepPlayerData] size=120
+        PlayerState ObjectProperty off=16 size=8
+        LastPawnNotRelevantTime FloatProperty off=24 size=4
+        bPawnIsRelevant BoolProperty off=28 size=1
+        bWasPawnRelevantLastUpdate BoolProperty off=29 size=1
+        CurrentLocation StructProperty off=32 size=12
+        [Vector] size=12
+          X FloatProperty off=0 size=4
+          Y FloatProperty off=4 size=4
+          Z FloatProperty off=8 size=4
+        CurrentYaw FloatProperty off=44 size=4
+        LastLocationReplicationTime FloatProperty off=48 size=4
+        PrevLocationReplicatedTime FloatProperty off=52 size=4
+        LastRepLocation StructProperty off=56 size=12
+        [Vector_NetQuantize100] size=12
+        PrevRepLocation StructProperty off=68 size=12
+        LerpStartLocation StructProperty off=80 size=12
+        LastYawReplicationTime FloatProperty off=92 size=4
+        PrevYawReplicatedTime FloatProperty off=96 size=4
+        LastRepYaw FloatProperty off=100 size=4
+        PrevRepYaw FloatProperty off=104 size=4
+        LerpStartYaw FloatProperty off=108 size=4
+        PawnStateMask EnumProperty off=112 size=1
+        CurrPawnStateMask EnumProperty off=113 size=1
+    CurrPlayerUpdateIndex IntProperty off=280 size=4
+  AverageDamageDealt UInt16Property off=1216 size=2
+[Info] size=536
+[FortTeamInfo] size=880
+  TeamMembers ArrayProperty off=544 size=16
+    inner ObjectProperty size=8
+  Team ByteProperty off=560 size=1
+  ChatRoomId StrProperty off=568 size=16
+  TeamSpottedActors StructProperty off=584 size=288
+  [TeamSpottedActorInfoArray] size=288
+    SpottedActorInfo ArrayProperty off=264 size=16
+      inner StructProperty size=32
+      [TeamSpottedActorInfo] size=32
+        Spotter ObjectProperty off=16 size=8
+        SpottedActor ObjectProperty off=24 size=8
+    OwningTeam ObjectProperty off=280 size=8
+  PrivateInfo ObjectProperty off=872 size=8

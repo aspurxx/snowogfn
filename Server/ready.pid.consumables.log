@@ -1,0 +1,924 @@
+spawner=BP_BGACSpawner100 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner101 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner103 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner104 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner105 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner106 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner107 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner108 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner147_34 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner148_36 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner149_38 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner150_40 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner151_42 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner152_44 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner153 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner154 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner155 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner156 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner157 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner158 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner159 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner160 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner161 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner162 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner163 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner164 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner165 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner166 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner167 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner168 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner169 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner170 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner171 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner172 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner173 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner175 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner176 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner178 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner179 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner180 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner181 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner182 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner183 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner184 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner185 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner186 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner187 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner188 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner189 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner190 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner191 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner192 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner193 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner194 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner195_89 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner196 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner197 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner198 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner199 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner200 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner201 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner202 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner203 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner204 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner205 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner206 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner207 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner208 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner209 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner210 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner211 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner212 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner213 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner214 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner215 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner216 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner217 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner218 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner219 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner21_15 tier=Loot_ForagedItem_AthenaRift drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner220 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner221 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner222 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner223 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner224 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner225 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner226 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner227 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner228 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner229 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner23 tier=Loot_ForagedItem_AthenaRift drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner230 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner231 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner232 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner233 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner234 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner235 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner236 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner237 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner238 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner239 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner24 tier=Loot_ForagedItem_AthenaRift drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner240 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner241 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner242 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner243 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner244 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner245 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner246_10 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner247 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner248 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner249 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner250 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner251 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner253 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner254 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner255 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner256 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner257 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner258 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner259 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner260 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner261 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner262 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner263 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner264 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner265 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner266 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner267 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner268 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner269 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner270 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner271 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner272 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner273 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner274 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner275 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner276 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner277_20 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner278 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner279 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner280 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner281_26 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner282 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner283 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner284 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner285 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner286 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner287 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner288 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner289 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner290 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner291 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner292 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner293 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner294 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner295_42 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner296 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner297 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner298 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner299 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner300 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner301 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner302 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner303 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner304 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner305 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner306 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner307 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner308 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner309 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner310 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner311 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner312 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner313 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner314_63 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner315 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner316 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner317 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner318 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner38 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner45 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner46 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner47 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner48 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner49 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner50 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner51 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner52 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner53 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner54 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner55 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner56 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner57 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner58 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner63 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner65 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner66 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner67 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner68 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner72 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner73 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner74 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner75 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner76 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner77 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner78 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner79 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner80 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner81 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner82 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner83 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner84 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner85 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner86 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner87 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner88 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner89 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner90 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner91 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner92 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner93 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner94 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner95 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner96 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner97 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner98 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner99 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner2 tier=Loot_ForagedItem_Glitch drops=7 spawned=7 classes= CBGA_Glitch_C
+spawner=BP_BGACSpawner3 tier=Loot_ForagedItem_Glitch drops=7 spawned=7 classes= CBGA_Glitch_C
+spawner=BP_BGACSpawner8 tier=Loot_ForagedItem_TempEvent drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner100 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner101 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner103 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner104 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner105 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner106 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner107 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner108 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner147_34 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner148_36 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner149_38 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner150_40 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner151_42 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner152_44 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner153 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner154 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner155 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner156 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner157 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner158 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner159 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner160 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner161 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner162 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner163 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner164 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner165 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner166 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner167 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner168 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner169 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner170 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner171 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner172 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner173 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner175 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner176 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner178 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner179 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner180 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner181 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner182 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner183 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner184 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner185 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner186 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner187 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner188 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner189 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner190 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner191 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner192 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner193 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner194 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner195_89 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner196 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner197 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner198 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner199 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner200 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner201 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner202 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner203 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner204 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner205 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner206 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner207 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner208 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner209 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner210 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner211 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner212 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner213 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner214 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner215 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner216 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner217 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner218 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner219 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner21_15 tier=Loot_ForagedItem_AthenaRift drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner220 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner221 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner222 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner223 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner224 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner225 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner226 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner227 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner228 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner229 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner23 tier=Loot_ForagedItem_AthenaRift drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner230 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner231 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner232 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner233 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner234 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner235 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner236 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner237 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner238 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner239 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner24 tier=Loot_ForagedItem_AthenaRift drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner240 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner241 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner242 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner243 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner244 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner245 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner246_10 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner247 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner248 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner249 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner250 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner251 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner253 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner254 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner255 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner256 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner257 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner258 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner259 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner260 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner261 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner262 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner263 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner264 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner265 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner266 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner267 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner268 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner269 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner270 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner271 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner272 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner273 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner274 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner275 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner276 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner277_20 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner278 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner279 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner280 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner281_26 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner282 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner283 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner284 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner285 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner286 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner287 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner288 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner289 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner290 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner291 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner292 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner293 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner294 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner295_42 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner296 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner297 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner298 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner299 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner300 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner301 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner302 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner303 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner304 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner305 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner306 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner307 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner308 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner309 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner310 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner311 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner312 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner313 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner314_63 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner315 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner316 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner317 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner318 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner38 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner45 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner46 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner47 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner48 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner49 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner50 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner51 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner52 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner53 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner54 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner55 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner56 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner57 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner58 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner63 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner65 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner66 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner67 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner68 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner72 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner73 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner74 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner75 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner76 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner77 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner78 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner79 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner80 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner81 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner82 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner83 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner84 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner85 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner86 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner87 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner88 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner89 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner90 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner91 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner92 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner93 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner94 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner95 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner96 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner97 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner98 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner99 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner8 tier=Loot_ForagedItem_TempEvent drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner2 tier=Loot_ForagedItem_Glitch drops=7 spawned=7 classes= CBGA_Glitch_C
+spawner=BP_BGACSpawner3 tier=Loot_ForagedItem_Glitch drops=7 spawned=7 classes= CBGA_Glitch_C
+spawner=BP_BGACSpawner100 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner101 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner103 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner104 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner105 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner106 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner107 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner108 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner147_34 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner148_36 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner149_38 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner150_40 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner151_42 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner152_44 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner153 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner154 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner155 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner156 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner157 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner158 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner159 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner160 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner161 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner162 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner163 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner164 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner165 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner166 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner167 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner168 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner169 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner170 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner171 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner172 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner173 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner175 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner176 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner178 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner179 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner180 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner181 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner182 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner183 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner184 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner185 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner186 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner187 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner188 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner189 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner190 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner191 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner192 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner193 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner194 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner195_89 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner196 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner197 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner198 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner199 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner200 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner201 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner202 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner203 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner204 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner205 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner206 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner207 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner208 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner209 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner210 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner211 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner212 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner213 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner214 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner215 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner216 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner217 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner218 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner219 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner21_15 tier=Loot_ForagedItem_AthenaRift drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner220 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner221 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner222 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner223 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner224 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner225 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner226 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner227 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner228 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner229 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner23 tier=Loot_ForagedItem_AthenaRift drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner230 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner231 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner232 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner233 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner234 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner235 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner236 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner237 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner238 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner239 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner24 tier=Loot_ForagedItem_AthenaRift drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner240 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner241 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner242 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner243 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner244 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner245 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner246_10 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner247 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner248 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner249 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner250 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner251 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner253 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner254 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner255 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner256 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner257 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner258 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner259 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner260 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner261 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner262 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner263 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner264 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner265 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner266 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner267 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner268 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner269 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner270 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner271 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner272 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner273 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner274 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner275 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner276 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner277_20 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner278 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner279 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner280 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner281_26 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner282 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner283 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner284 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner285 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner286 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner287 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner288 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner289 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner290 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner291 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner292 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner293 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner294 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner295_42 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner296 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner297 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner298 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner299 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner300 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner301 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner302 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner303 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner304 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner305 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner306 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner307 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner308 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner309 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner310 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner311 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner312 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner313 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner314_63 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner315 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner316 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner317 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner318 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner38 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner45 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner46 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner47 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner48 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner49 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner50 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner51 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner52 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner53 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner54 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner55 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner56 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner57 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner58 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner63 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner65 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner66 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner67 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner68 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner72 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner73 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner74 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner75 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner76 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner77 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner78 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner79 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner80 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner81 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner82 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner83 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner84 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner85 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner86 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner87 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner88 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner89 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner90 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner91 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner92 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner93 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner94 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner95 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner96 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner97 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner98 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner99 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner8 tier=Loot_ForagedItem_TempEvent drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner2 tier=Loot_ForagedItem_Glitch drops=7 spawned=7 classes= CBGA_Glitch_C
+spawner=BP_BGACSpawner3 tier=Loot_ForagedItem_Glitch drops=7 spawned=7 classes= CBGA_Glitch_C
+spawner=BP_BGACSpawner100 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner101 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner103 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner104 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner105 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner106 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner107 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner108 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner147_34 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner148_36 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner149_38 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner150_40 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner151_42 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner152_44 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner153 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner154 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner155 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner156 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner157 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner158 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner159 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner160 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner161 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner162 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner163 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner164 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner165 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner166 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner167 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner168 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner169 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner170 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner171 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner172 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner173 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner175 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner176 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner178 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner179 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner180 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner181 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner182 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner183 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner184 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner185 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner186 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner187 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner188 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner189 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner190 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner191 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner192 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner193 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner194 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner195_89 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner196 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner197 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner198 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner199 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner200 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner201 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner202 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner203 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner204 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner205 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner206 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner207 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner208 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner209 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner210 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner211 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner212 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner213 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner214 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner215 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner216 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner217 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner218 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner219 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner21_15 tier=Loot_ForagedItem_AthenaRift drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner220 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner221 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner222 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner223 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner224 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner225 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner226 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner227 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner228 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner229 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner23 tier=Loot_ForagedItem_AthenaRift drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner230 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner231 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner232 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner233 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner234 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner235 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner236 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner237 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner238 tier=Loot_ForagedItem_Mountain drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner239 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner24 tier=Loot_ForagedItem_AthenaRift drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner240 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner241 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner242 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner243 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner244 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner245 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner246_10 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner247 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner248 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner249 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner250 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner251 tier=Loot_ForagedItem_Forest drops=7 spawned=7 classes= CBGA_ShieldsSmall_C
+spawner=BP_BGACSpawner253 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner254 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner255 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner256 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner257 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner258 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner259 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner260 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner261 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner262 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner263 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner264 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner265 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner266 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner267 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner268 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner269 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner270 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner271 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner272 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner273 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner274 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner275 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner276 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner277_20 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner278 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner279 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner280 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner281_26 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner282 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner283 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner284 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner285 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner286 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner287 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner288 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner289 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner290 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner291 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner292 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner293 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner294 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner295_42 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner296 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner297 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner298 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner299 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner300 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner301 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner302 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner303 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner304 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner305 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner306 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner307 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner308 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner309 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner310 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner311 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner312 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner313 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner314_63 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner315 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner316 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner317 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner318 tier=Loot_ForagedItem_Jungle drops=7 spawned=7 classes= CBGA_HealthSmall_V2_C
+spawner=BP_BGACSpawner38 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner45 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner46 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner47 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner48 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner49 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner50 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner51 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner52 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner53 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner54 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner55 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner56 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner57 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner58 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner63 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner65 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner66 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner67 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner68 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner72 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner73 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner74 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner75 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner76 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner77 tier=Loot_ForagedItem_Arid drops=7 spawned=7 classes= CBGA_HealthSpeedSmall_C
+spawner=BP_BGACSpawner78 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner79 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner80 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner81 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner82 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner83 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner84 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner85 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner86 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner87 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner88 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner89 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner90 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner91 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner92 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner93 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner94 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner95 tier=Loot_ForagedItem_Grassland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner96 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner97 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner98 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner99 tier=Loot_ForagedItem_Farmland drops=7 spawned=7 classes= CBGA_HealthSmall_C
+spawner=BP_BGACSpawner8 tier=Loot_ForagedItem_TempEvent drops=0 spawned=0 classes=
+spawner=BP_BGACSpawner2 tier=Loot_ForagedItem_Glitch drops=7 spawned=7 classes= CBGA_Glitch_C
+spawner=BP_BGACSpawner3 tier=Loot_ForagedItem_Glitch drops=7 spawned=7 classes= CBGA_Glitch_C
