@@ -21,6 +21,14 @@ jobs:
         run: |
           & ".\ESnowLauncherBETAOFFICIAL snow filesOld Syndicate Filesgame-serverErbium\restore-libcurl.ps1"
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Test World Cup Solo matchmaking selection
+        run: node --test tests/worldcup-playlist.test.cjs
+
       - name: Set up MSBuild
         uses: microsoft/setup-msbuild@v2
 
