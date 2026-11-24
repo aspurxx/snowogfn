@@ -29,6 +29,14 @@ jobs:
       - name: Test World Cup Solo matchmaking selection
         run: node --test tests/worldcup-playlist.test.cjs
 
+      - name: Set up .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Compile and test launcher World Cup Solo options
+        run: dotnet run --project tests/MatchOptionsCompile/MatchOptionsCompile.csproj --configuration Release
+
       - name: Set up MSBuild
         uses: microsoft/setup-msbuild@v2
 
