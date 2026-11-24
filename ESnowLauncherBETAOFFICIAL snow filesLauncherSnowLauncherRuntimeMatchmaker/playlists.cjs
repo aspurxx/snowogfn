@@ -4,11 +4,11 @@ const runtime=path.resolve(__dirname,'../../Runtime/Server');
 const modes={'2':'solo','9':'squad','10':'duo',playlist_defaultsolo:'solo',
  // Chapter 2 entrance (11.00 Apollo intro): the game's own intro playlists start the intro match (mode 'intro').
  playlist_intro_apollo_newplayer:'intro',playlist_intro_apollo_pastplayer:'intro',playlist_intro_apollo_currentplayer:'intro',playlist_intro_apollo_05h95b:'intro',playlist_intro_apollo_20h80b:'intro',playlist_intro_apollo_30h70b:'intro',playlist_intro_apollo_40h60b:'intro',
- playlist_defaultduo:'duo',playlist_defaultsquad:'squad',playlist_50v50:'50v50',playlist_playground:'playground',playlist_showdownalt_solo:'arenasolo',playlist_playgroundv2:'creative'};
-const playlistNames={intro:'Playlist_Intro_Apollo_NewPlayer',solo:'Playlist_DefaultSolo',duo:'Playlist_DefaultDuo',squad:'Playlist_DefaultSquad','50v50':'Playlist_50v50',playground:'Playlist_Playground',arenasolo:'Playlist_ShowdownAlt_Solo',creative:'Playlist_PlaygroundV2'};
+ playlist_defaultduo:'duo',playlist_defaultsquad:'squad',playlist_50v50:'50v50',playlist_playground:'playground',playlist_showdownalt_solo:'arenasolo',playlist_showdown_worldcup_solo:'worldcupsolo',playlist_playgroundv2:'creative'};
+const playlistNames={intro:'Playlist_Intro_Apollo_NewPlayer',solo:'Playlist_DefaultSolo',duo:'Playlist_DefaultDuo',squad:'Playlist_DefaultSquad','50v50':'Playlist_50v50',playground:'Playlist_Playground',arenasolo:'Playlist_ShowdownAlt_Solo',worldcupsolo:'Playlist_Showdown_WorldCup_Solo',creative:'Playlist_PlaygroundV2'};
 const read=(file)=>{try{return JSON.parse(fs.readFileSync(file,'utf8'));}catch{return null;}};
 function write(file,value){fs.mkdirSync(path.dirname(file),{recursive:true});const temp=file+'.'+crypto.randomUUID()+'.tmp';fs.writeFileSync(temp,JSON.stringify(value));fs.renameSync(temp,file);}
-function playlistMode(bucket){const parts=typeof bucket==='string'?bucket.split(':'):[];if(parts.length!==4||!modes[parts[3].toLowerCase()])throw Error('Choose Solo, Duos, Squads, Arena or Creative in Fortnite. This playlist is not supported.');return modes[parts[3].toLowerCase()];}
+function playlistMode(bucket){const parts=typeof bucket==='string'?bucket.split(':'):[];if(parts.length!==4||!modes[parts[3].toLowerCase()])throw Error('Choose Solo, Duos, Squads, Arena, World Cup Solo or Creative in Fortnite. This playlist is not supported.');return modes[parts[3].toLowerCase()];}
 function selectedBuild(dir=runtime){return read(path.join(dir,'active-build.json'))?.Build || '4.5';}
 function requireBuild(build,dir=runtime){const allowed=['1.7.2','1.8.2','1.8','1.11','2.5','3.5.1','4.5','5.10','6.20','7.40','8.50','9.40','10.31','10.40','11.00','12.50'];if(process.env.TILTED_DEVKIT==='1')allowed.push('19.00');if(!allowed.includes(build)||build!==selectedBuild(dir))throw Error('Host and player must select the same Fortnite version.');return build;}
 function hostStatus(dir=runtime,now=Date.now()){
@@ -30,6 +30,7 @@ function reserve(mode,accountId,dir=runtime,now=Date.now(),build=selectedBuild(d
  if(mode==='50v50' && build!=='4.5')throw Error('50v50 is available only in Season 4.');
  if(mode==='playground' && build!=='4.5')throw Error('Playground is available only in Season 4.');
  if(mode==='intro' && build!=='11.00')throw Error('The Chapter 2 entrance needs Fortnite 11.00.');
+ if(mode==='worldcupsolo' && build!=='9.40')throw Error('World Cup Solo is available only in Season 9 (Fortnite 9.40).');
  if(mode.startsWith('arena') && !['8.50','9.40','10.31','10.40','11.00','12.50'].includes(build))throw Error('Arena is available in Season 8 and later.');
  // Creative is off by default: the island never loads on UE4 (LoadPlayset faults; see project doc
  // creative-7.40-2026-10-27). Dev Kit may select it on 11.00 to experiment - expect empty sea / no island
