@@ -55,7 +55,7 @@ app.get("/content/api/pages/*", async (req, res) => {
   if (clientBuild(req.headers['user-agent']) === '9.40') {
     const playlistInfos = Contentpages.playlistinformation?.playlist_info?.playlists;
     if (Array.isArray(playlistInfos) && !playlistInfos.some(p => p?.playlist_name === 'Playlist_Showdown_WorldCup_Solo')) {
-      playlistInfos.push({ image: '', playlist_name: 'Playlist_Showdown_WorldCup_Solo', hidden: false, special_border: 'None', _type: 'FortPlaylistInfo' });
+      playlistInfos.push({ image: 'https://cdn2.unrealengine.com/Fortnite%2BEsports%2Fblog%2Fworld-cup-final-details%2FFN_Competitive_News_Featured_FWC_Announce-1920x1080-c07eba031e186216366042ff1bde6177a521587f.jpg', playlist_name: 'Playlist_Showdown_WorldCup_Solo', hidden: false, special_border: 'None', _type: 'FortPlaylistInfo' });
     }
   }
 
