@@ -64,6 +64,7 @@ function reserve(mode,accountId,dir=runtime,now=Date.now(),build=selectedBuild(d
 function prewarm(mode,dir=runtime,now=Date.now()){
  if(!playlistNames[mode]||mode==='intro'||mode==='creative')return false;
  const build=selectedBuild(dir);
+ if(mode==='worldcupsolo'&&build!=='9.40')return false;
  if(['50v50','playground'].includes(mode)&&build!=='4.5')return false;
  if(mode.startsWith('arena')&&!['8.50','9.40','10.31','10.40','11.00','12.50'].includes(build))return false;
  const live=hostStatus(dir,now);
