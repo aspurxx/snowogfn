@@ -3550,7 +3550,7 @@ void AFortGameMode::ReadyToStartMatch_(UObject* Context, FFrame& Stack, bool* Re
         if (MissingWorldCupPlaylistMode != GameMode)
         {
             MissingWorldCupPlaylistMode = GameMode;
-            printf("[Syndicate] World Cup Solo playlist is missing from this build; match start is blocked instead of falling back to Solo.\\n");
+            printf("[Syndicate] World Cup Solo playlist is missing from this build; match start is blocked instead of falling back to Solo.\n");
         }
         *Ret = false;
         return;
