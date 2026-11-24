@@ -3230,6 +3230,13 @@ static auto SyndicatePlaylist()
                 break;
             }
     auto Playlist = FindObject<UFortPlaylistAthena>(FConfiguration::Playlist);
+    // World Cup Solo has a known Season 9 object path. Try loading that exact path
+    // directly before relying on the asset registry, which may not have finished
+    // indexing the package when the host first asks for its playlist.
+    if (!Playlist && wcsstr(FConfiguration::Playlist, L"Playlist_Showdown_WorldCup_Solo"))
+        if (auto PlaylistClass = FindClass("FortPlaylistAthena"))
+            if (SDK::Offsets::StaticLoadObject)
+                Playlist = (UFortPlaylistAthena*)SDK::StaticLoadObject(FConfiguration::Playlist, PlaylistClass);
     if (!Playlist)
         if (auto Dot = wcsrchr(FConfiguration::Playlist, L'.'))
         {
