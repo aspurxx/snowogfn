@@ -3230,7 +3230,26 @@ static auto SyndicatePlaylist()
                 break;
             }
     auto Playlist = FindObject<UFortPlaylistAthena>(FConfiguration::Playlist);
-    if (!Playlist)
+    bool SkipWorldCupLookup = false;
+    if (!Playlist && wcsstr(FConfiguration::Playlist, L"Playlist_Showdown_WorldCup_Solo"))
+    {
+        // A missing playlist is checked again periodically because the asset registry may
+        // still be initializing; avoid scanning every registered asset on every game tick.
+        static ULONGLONG LastWorldCupLookup = 0;
+        const ULONGLONG Now = GetTickCount64();
+        if (LastWorldCupLookup && Now - LastWorldCupLookup < 2000)
+            SkipWorldCupLookup = true;
+        else
+            LastWorldCupLookup = Now;
+    }
+    // World Cup Solo has a known Season 9 object path. Try loading that exact path
+    // directly before relying on the asset registry, which may not have finished
+    // indexing the package when the host first asks for its playlist.
+    if (!Playlist && !SkipWorldCupLookup && wcsstr(FConfiguration::Playlist, L"Playlist_Showdown_WorldCup_Solo"))
+        if (auto PlaylistClass = FindClass("FortPlaylistAthena"))
+            if (SDK::Offsets::StaticLoadObject)
+                Playlist = (UFortPlaylistAthena*)SDK::StaticLoadObject(FConfiguration::Playlist, PlaylistClass);
+    if (!Playlist && !SkipWorldCupLookup)
         if (auto Dot = wcsrchr(FConfiguration::Playlist, L'.'))
         {
             std::string Name;
@@ -3241,11 +3260,24 @@ static auto SyndicatePlaylist()
             else if (auto Path = SyndicatePlaylistPath(Name); !Path.empty())
             {
                 Playlist = FindObject<UFortPlaylistAthena>(Path.c_str());
+                // FindObject only sees objects already resident in memory. A playlist can be
+                // present in the 9.40 asset registry without having been loaded yet, so load
+                // the registered package before treating World Cup Solo as missing.
+                if (!Playlist)
+                    if (auto PlaylistClass = FindClass("FortPlaylistAthena"))
+                        if (SDK::Offsets::StaticLoadObject)
+                            Playlist = (UFortPlaylistAthena*)SDK::StaticLoadObject(Path.c_str(), PlaylistClass);
                 printf("[Syndicate] playlist %s found at %ls: %s\n", Name.c_str(), Path.c_str(), Playlist ? "loaded" : "failed to load");
             }
             else printf("[Syndicate] playlist %s is not in this build; using Solo\n", Name.c_str());
         }
     return Playlist;
+}
+
+// World Cup Solo is a real Season 9 playlist, not an alias for Arena or Default Solo.
+static bool SyndicateWorldCupSoloRequested()
+{
+    return wcsstr(FConfiguration::Playlist, L"Playlist_Showdown_WorldCup_Solo") != nullptr;
 }
 
 static int SyndicateSelectedTeamSize()
@@ -3260,8 +3292,14 @@ void SetupPlaylist(AFortGameMode* GameMode, AFortGameStateAthena* GameState)
 {
     auto Playlist = SyndicatePlaylist();
 
-    if (!Playlist)
+    // A missing World Cup asset must never inherit Solo's settings.
+    if (!Playlist && !SyndicateWorldCupSoloRequested())
         Playlist = FindObject<UFortPlaylistAthena>(L"/Game/Athena/Playlists/Playlist_DefaultSolo.Playlist_DefaultSolo");
+    if (!Playlist && SyndicateWorldCupSoloRequested())
+    {
+        printf("[Syndicate] World Cup Solo playlist could not be loaded; skipping Solo fallback in SetupPlaylist.\n");
+        return;
+    }
 
     if (Playlist)
     {
@@ -3269,7 +3307,7 @@ void SetupPlaylist(AFortGameMode* GameMode, AFortGameStateAthena* GameState)
         if (Playlist->HasMaxSquadSize()) {
             if (wcsstr(FConfiguration::Playlist,L"Playlist_DefaultDuo")) Playlist->MaxSquadSize=2;
             else if (wcsstr(FConfiguration::Playlist,L"Playlist_DefaultSquad")) Playlist->MaxSquadSize=4;
-            else if (wcsstr(FConfiguration::Playlist,L"Playlist_DefaultSolo")) Playlist->MaxSquadSize=1;
+            else if (wcsstr(FConfiguration::Playlist,L"Playlist_DefaultSolo") || SyndicateWorldCupSoloRequested()) Playlist->MaxSquadSize=1;
         }
         if (FConfiguration::bForceRespawns)
         {
@@ -3535,6 +3573,22 @@ void AFortGameMode::ReadyToStartMatch_(UObject* Context, FFrame& Stack, bool* Re
 
     auto GameState = GameMode->GameState;
 
+    // Do not silently turn a requested World Cup match into ordinary Solo when this
+    // Fortnite build does not contain the original tournament playlist. Keep the
+    // host in warmup/readiness polling until the asset can be resolved.
+    static AFortGameMode* MissingWorldCupPlaylistMode = nullptr;
+    if (SyndicateWorldCupSoloRequested() && !SyndicatePlaylist())
+    {
+        if (MissingWorldCupPlaylistMode != GameMode)
+        {
+            MissingWorldCupPlaylistMode = GameMode;
+            printf("[Syndicate] World Cup Solo playlist is missing from this build; match start is blocked instead of falling back to Solo.\n");
+        }
+        *Ret = false;
+        return;
+    }
+    MissingWorldCupPlaylistMode = nullptr;
+
     static bool setup = false;
     if (GameMode->HasWarmupRequiredPlayerCount() ? GameMode->WarmupRequiredPlayerCount != 1 : !setup)
     {
@@ -3561,7 +3615,13 @@ void AFortGameMode::ReadyToStartMatch_(UObject* Context, FFrame& Stack, bool* Re
 
         auto Playlist = SyndicatePlaylist();
 
-        if (!Playlist)
+        if (!Playlist && SyndicateWorldCupSoloRequested())
+        {
+            printf("[Syndicate] World Cup Solo playlist disappeared during match setup; blocking start.\n");
+            *Ret = false;
+            return;
+        }
+        if (!Playlist && !SyndicateWorldCupSoloRequested())
             Playlist = FindObject<UFortPlaylistAthena>(L"/Game/Athena/Playlists/Playlist_DefaultSolo.Playlist_DefaultSolo");
 
         if (Playlist)

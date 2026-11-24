@@ -276,6 +276,9 @@ void Main()
     // Arena (Seasons 8+). If this path is wrong the server finds the playlist by name.
     else if (_wcsicmp(selectedPlaylist,L"arenasolo")==0 || _wcsicmp(selectedPlaylist,L"Playlist_ShowdownAlt_Solo")==0)
         FConfiguration::Playlist=L"/Game/Athena/Playlists/Showdown/Playlist_ShowdownAlt_Solo.Playlist_ShowdownAlt_Solo";
+    // Season 9 World Cup Solo: use the original tournament playlist, not Arena Solo.
+    else if (_wcsicmp(selectedPlaylist,L"worldcupsolo")==0 || _wcsicmp(selectedPlaylist,L"Playlist_Showdown_WorldCup_Solo")==0)
+        FConfiguration::Playlist=L"/Game/Athena/Playlists/Showdown/Playlist_Showdown_WorldCup_Solo.Playlist_Showdown_WorldCup_Solo";
     // 50v50 (Season 4). The launcher already passes "50v50"; without this branch the
     // server silently fell back to Solo.
     else if (_wcsicmp(selectedPlaylist,L"50v50")==0 || _wcsicmp(selectedPlaylist,L"Playlist_50v50")==0)

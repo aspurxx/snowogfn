@@ -51,6 +51,14 @@ app.get("/content/api/pages/*", async (req, res) => {
   bgs[0].stage = mainStages[season] || "";
   bgs[1].stage = eventStages[build] || bgs[0].stage;
 
+  // Season 9: expose the original World Cup Solo playlist as a separate lobby tile.
+  if (clientBuild(req.headers['user-agent']) === '9.40') {
+    const playlistInfos = Contentpages.playlistinformation?.playlist_info?.playlists;
+    if (Array.isArray(playlistInfos) && !playlistInfos.some(p => p?.playlist_name === 'Playlist_Showdown_WorldCup_Solo')) {
+      playlistInfos.push({ image: 'https://cdn2.unrealengine.com/Fortnite%2BEsports%2Fblog%2Fworld-cup-final-details%2FFN_Competitive_News_Featured_FWC_Announce-1920x1080-c07eba031e186216366042ff1bde6177a521587f.jpg', playlist_name: 'Playlist_Showdown_WorldCup_Solo', hidden: false, special_border: 'None', _type: 'FortPlaylistInfo' });
+    }
+  }
+
   if(clientBuild(req.headers['user-agent'])==='4.5'){
     Contentpages.playlistinformation.playlist_info.playlists.push({playlist_name:'Playlist_50v50',hidden:false,special_border:'None',_type:'FortPlaylistInfo'});
     Contentpages.playlistinformation.playlist_info.playlists.push({playlist_name:'Playlist_Playground',hidden:false,special_border:'None',_type:'FortPlaylistInfo'});

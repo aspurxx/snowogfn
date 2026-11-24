@@ -16,7 +16,7 @@ public sealed record MatchOptions(int MinimumBots, int MaximumBots, bool EditOnR
     public IReadOnlyList<string> CustomBotNames { get; init; } = Array.Empty<string>();
     /// <summary>The playlist the match host started with. It follows the playlist picked in Fortnite's lobby.</summary>
     public string Playlist { get; init; } = "solo";
-    public static readonly string[] Playlists = { "solo", "duo", "squad", "50v50", "playground", "arenasolo", "creative", "intro" };
+    public static readonly string[] Playlists = { "solo", "duo", "squad", "50v50", "playground", "arenasolo", "worldcupsolo", "creative", "intro" };
     public static string NormalizePlaylist(string? mode) => (mode ?? "").Trim().ToLowerInvariant() switch
     {
         "duos" => "duo",
@@ -32,6 +32,7 @@ public sealed record MatchOptions(int MinimumBots, int MaximumBots, bool EditOnR
         "50v50" => "50v50",
         "playground" => "Playground",
         "arenasolo" => "Arena Solo",
+        "worldcupsolo" => "World Cup Solo",
         "creative" => "Creative",
         "intro" => "Chapter 2 entrance",
         _ => "Solo"
