@@ -3248,6 +3248,12 @@ static auto SyndicatePlaylist()
     return Playlist;
 }
 
+// World Cup Solo is a real Season 9 playlist, not an alias for Arena or Default Solo.
+static bool SyndicateWorldCupSoloRequested()
+{
+    return wcsstr(FConfiguration::Playlist, L"Playlist_Showdown_WorldCup_Solo") != nullptr;
+}
+
 static int SyndicateSelectedTeamSize()
 {
     if(wcsstr(FConfiguration::Playlist,L"_Trios"))return 3;
@@ -3534,6 +3540,22 @@ void AFortGameMode::ReadyToStartMatch_(UObject* Context, FFrame& Stack, bool* Re
     auto GameMode = Context->Cast<AFortGameMode>();
 
     auto GameState = GameMode->GameState;
+
+    // Do not silently turn a requested World Cup match into ordinary Solo when this
+    // Fortnite build does not contain the original tournament playlist. Keep the
+    // host in warmup/readiness polling until the asset can be resolved.
+    static AFortGameMode* MissingWorldCupPlaylistMode = nullptr;
+    if (SyndicateWorldCupSoloRequested() && !SyndicatePlaylist())
+    {
+        if (MissingWorldCupPlaylistMode != GameMode)
+        {
+            MissingWorldCupPlaylistMode = GameMode;
+            printf("[Syndicate] World Cup Solo playlist is missing from this build; match start is blocked instead of falling back to Solo.\\n");
+        }
+        *Ret = false;
+        return;
+    }
+    MissingWorldCupPlaylistMode = nullptr;
 
     static bool setup = false;
     if (GameMode->HasWarmupRequiredPlayerCount() ? GameMode->WarmupRequiredPlayerCount != 1 : !setup)
