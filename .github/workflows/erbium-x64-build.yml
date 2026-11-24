@@ -1,0 +1,42 @@
+name: Erbium x64 build
+
+on:
+  push:
+    branches:
+      - feature/worldcup-solo-9.40
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-erbium:
+    runs-on: windows-2022
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Restore original libcurl dependencies
+        shell: pwsh
+        run: |
+          & ".\ESnowLauncherBETAOFFICIAL snow filesOld Syndicate Filesgame-serverErbium\restore-libcurl.ps1"
+
+      - name: Set up MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Build Erbium x64 Release
+        shell: pwsh
+        run: |
+          $project = ".\ESnowLauncherBETAOFFICIAL snow filesOld Syndicate Filesgame-serverErbium\Erbium.vcxproj"
+          $out = Join-Path $env:GITHUB_WORKSPACE "artifacts\Erbium\"
+          $int = Join-Path $env:GITHUB_WORKSPACE "artifacts\obj\"
+          New-Item -ItemType Directory -Force -Path $out, $int | Out-Null
+          msbuild $project /m /t:Build /p:Configuration=Release /p:Platform=x64 "/p:OutDir=$out" "/p:IntDir=$int" /v:minimal
+
+      - name: Upload Erbium build output
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Erbium-x64-Release
+          path: artifacts/Erbium/
+          if-no-files-found: error
