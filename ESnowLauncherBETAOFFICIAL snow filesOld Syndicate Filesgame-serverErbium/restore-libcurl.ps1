@@ -1,6 +1,7 @@
 # Restores the exact libcurl dependency files used by the original Erbium source.
 # Run this script before building Erbium.vcxproj if the libcurl folder is missing.
 $ErrorActionPreference = "Stop"
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
 $sourceCommit = "2035ea16cdc7a183ed4310058b38066c482e0741"
 $sourceRoot = "https://raw.githubusercontent.com/Sacttt/Syndicate-Source-Code/$sourceCommit/SyndicateClassic/game-server/Erbium/libcurl"
